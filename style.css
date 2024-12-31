@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+section {
+    width: 100%;
+   
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    border: 2px solid yellow;
+}
+.main-box{
+    display: flex;
+
+}
+.logo, .dual-btns{
+    flex-basis: 20%;
+}
+.menu{
+    flex-basis: 60%;
+    align-items: center;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    list-style: none;
+   display: inline-block;
+   margin-left: 25px;
+   font-size: 16px;
+   color: blue;
+
+}
+.dual-btns{
+    background: #0e72cc;
+    color: #fff;
+    padding: 10px 20px;
+}
